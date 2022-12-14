@@ -322,6 +322,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 4CE4427018B6FC360017DF25;
@@ -467,6 +468,7 @@
 					"$(SRCROOT)/../../../../api/wels",
 					"$(SRCROOT)/../../../../common/arm",
 					"$(SRCROOT)/../../../../common/arm64",
+					"$(SRCROOT)/../../../../decoder/core/inc",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -501,6 +503,7 @@
 					"$(SRCROOT)/../../../../api/wels",
 					"$(SRCROOT)/../../../../common/arm",
 					"$(SRCROOT)/../../../../common/arm64",
+					"$(SRCROOT)/../../../../decoder/core/inc",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
